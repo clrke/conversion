@@ -15,7 +15,7 @@ float convert_weight(int convert_type, float weight) {
 		case 5:
 			return weight/1000;
 		case 6:
-			return convert_weight(5, weight) * 2. 2;
+			return convert_weight(5, weight) * 2.2;
 	}
 }
 
