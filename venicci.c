@@ -3,6 +3,7 @@
 #include "temperature.h"
 #include "height.h"
 #include "Weight.h"
+#include "volume.h"
 
 int main()
 {
@@ -28,7 +29,7 @@ int main()
 			weight_conversion();
 			break;
 		case 4:
-			printf("Volume Conversion\n");
+			volume_conversion();
 			break;
 		case 5:
 			printf("Base Conversion\n");
