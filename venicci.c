@@ -4,6 +4,7 @@
 #include "height.h"
 #include "Weight.h"
 #include "volume.h"
+#include "base.h"
 
 int main()
 {
@@ -32,7 +33,7 @@ int main()
 			volume_conversion();
 			break;
 		case 5:
-			printf("Base Conversion\n");
+			base_conversion();
 			break;
 	}
 
