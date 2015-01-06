@@ -2,6 +2,7 @@
 #include <conio.h>
 #include "temperature.h"
 #include "height.h"
+#include "Weight.h"
 
 int main()
 {
@@ -24,7 +25,7 @@ int main()
 			height_conversion();
 			break;
 		case 3:
-			printf("Weight Conversion\n");
+			weight_conversion();
 			break;
 		case 4:
 			printf("Volume Conversion\n");
@@ -33,7 +34,7 @@ int main()
 			printf("Base Conversion\n");
 			break;
 	}
-	
+
 	getch();
 	return 0;
 }
